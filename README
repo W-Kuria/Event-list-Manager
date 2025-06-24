@@ -1,0 +1,37 @@
+#  Guest List Manager
+
+A simple, responsive single-page web application that lets you manage a guest list for any event. Add, edit, categorize, and mark attendance status for up to 10 guests.
+
+## Features
+1. Add a guest with a name and category (Friend, Family, or Colleague)
+2. Edit guest names inline
+3. Toggle attendance status (Attending / Not Attending)
+4. Remove guests from the list
+5. Color-coded category tags
+6. Stylish, user-friendly interface
+7. Max 10 guests allowed
+
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+##  Getting Started
+
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+
+```bash
+git clone https://github.com/yourusername/guest-list-manager.git
+cd guest-list-manager
+open index.html  # or simply double-click the file
+
+
+## AUTHOR:
+This project was made by William Kuria.
+
+##LICENCE: 
+This project is under the licensed board
+
+Copyright © 2025 William
