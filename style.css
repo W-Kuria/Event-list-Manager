@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4e6f9; /* soft lavender */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(128, 0, 128, 0.1);
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #d6b3f0;
+  border-radius: 4px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f0dff6; /* light purple */
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.category {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  color: white;
+}
+
+/* Purple category tones */
+.Friend { background-color: #9b59b6; }     /* Medium purple */
+.Family { background-color: #8e44ad; }     /* Dark purple */
+.Colleague { background-color: #ba55d3; }  /* Orchid */
+
+button {
+  cursor: pointer;
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #7e3f9e;
+}
+
+.time {
+  font-size: 0.7em;
+  color: #775c88; /* muted purple-gray */
+}
+
+.name span {
+  margin-right: 10px;
+}
